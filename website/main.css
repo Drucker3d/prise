@@ -1,0 +1,77 @@
+html,
+body {
+	height: calc(100% - 15px);
+	width: calc(100% - 15px);
+}
+
+body {
+	padding: 15px 15px 15px 15px;
+	margin: 0px auto 0px auto;
+	background-color: #101010;
+	display: block;
+	font-size: 20px;
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	border-bottom: thin solid white;
+}
+
+#div_info_wrapper {
+	min-height: 65%;
+	width: 100%;
+}
+
+#div_info_wrapper table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#div_info_wrapper table th {
+	border-bottom: 1px solid #FFFFFF;
+}
+
+#div_info_wrapper table th,
+#div_info_wrapper table td {
+	padding: 15px;
+}
+
+#div_upload_wrapper {
+	min-height: 25%;
+}
+
+#div_upload_wrapper label,
+#div_upload_wrapper #upload {
+	border-radius: 15px;
+	border: 1px solid #FFFFFF;
+	background: #101010;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 50%;
+	text-align: center;
+}
+
+#div_upload_wrapper label:hover,
+#div_upload_wrapper #upload:hover {
+	background: #FFFFFF;
+	cursor: pointer;
+	color: #101010;
+}
+
+#div_upload_wrapper ul {
+	padding-left: 30%;
+}
+
+#div_upload_wrapper #upload {
+	margin-bottom: 10px;
+}
+
+.hidden {
+	display: none;
+	visibility: hidden;
+}

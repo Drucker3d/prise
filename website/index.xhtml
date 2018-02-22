@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<title>3D Printer</title>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+	<body>
+		<div id="div_info_wrapper">
+			<h1>Informationen</h1>
+			<noscript>
+				<h2>Please enable JavaScript to use this site.</h2>
+			</noscript>
+			<table id="status_table">
+				<tr>
+					<th>ID</th>
+					<th>Name</th>
+					<th>Status</th>
+				</tr>
+				<tr id="info_1">
+					<td>01 Col 01</td>
+					<td>01 Col 02</td>
+					<td>01 Col 03</td>
+				</tr>
+				<tr id="info_2">
+					<td>02 Col 01</td>
+					<td>02 Col 02</td>
+					<td>02 Col 03</td>
+				</tr>
+			</table>
+		</div>
+		<div id="div_upload_wrapper">
+			<h1>Upload</h1>
+			<form id="upload_form" action="#" method="post" enctype="multipart/form-data">
+				<input accept=".gcode" name="files[]" id="files" type="file" multiple="multiple" class="hidden" required="required" />
+			</form>
+			<label for="files">Select Files</label>
+			<div id="list"></div>
+			<div id="upload" class="hidden">Upload Files</div>
+		</div>
+	</body>
+</html>

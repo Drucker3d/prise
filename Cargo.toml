@@ -1,0 +1,10 @@
+[package]
+name = "prise"
+version = "0.1.0"
+authors = ["Christian Dereck <ch.dereck@gmail.com>"]
+
+[dependencies]
+actix = "*"
+actix-web = { git = "https://github.com/actix/actix-web.git" }
+env_logger = "*"
+futures = "*"
